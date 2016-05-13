@@ -1,0 +1,103 @@
+===============================
+88005.hn1.hpc.iitd.ac.in
+cn005.hpc.iitd.ac.in
+===============================
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareDataFolds \
+	-Dexec.args="-f cross-validation/restaurant.tsv -n 10 -d restaurant"
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train0.tsv -r 0.9 -s restaurant/test0.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train1.tsv -r 0.9 -s restaurant/test1.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train2.tsv -r 0.9 -s restaurant/test2.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train3.tsv -r 0.9 -s restaurant/test3.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train4.tsv -r 0.9 -s restaurant/test4.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train5.tsv -r 0.9 -s restaurant/test5.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train6.tsv -r 0.9 -s restaurant/test6.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train7.tsv -r 0.9 -s restaurant/test7.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train8.tsv -r 0.9 -s restaurant/test8.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train9.tsv -r 0.9 -s restaurant/test9.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	
+[ERROR] No plugin found for prefix 'exec' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/maths/integrated/mt5110581/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

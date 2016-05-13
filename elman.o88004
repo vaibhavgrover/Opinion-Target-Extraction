@@ -1,0 +1,8 @@
+===============================
+88004.hn1.hpc.iitd.ac.in
+cn005.hpc.iitd.ac.in
+===============================
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareDataFolds \
+	-Dexec.args="-f cross-validation/restaurant.tsv -n 10 -d restaurant"
+mvn -q compile exec:java -Dexec.mainClass=edu.cuhk.hccl.AppPrepareRnnJson \
+	-Dexec.args="-t restaurant/train0.tsv -r 0.9 -s restaurant/test0.tsv -o restaurant-json-Senna.txt -e embeddings/senna -p Senna"	

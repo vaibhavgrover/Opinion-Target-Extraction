@@ -1,0 +1,23 @@
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65.x86_64/bin/java
+make: *** [prepare-folds] Error 1
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65.x86_64/bin/java
+make: *** [prepare-json] Error 1
+<<!! BUG IN FGRAPH.REPLACE OR A LISTENER !!>> <type 'exceptions.TypeError'> ('The type of the replacement must be compatible with the type of the original Variable.', AllocEmpty{dtype='float64'}.0, AllocEmpty{dtype='float64'}.0, TensorType(float64, row), TensorType(float64, matrix), 'MergeOptimizer') MergeOptimizer
+ERROR (theano.gof.opt): SeqOptimizer apply MergeOptimizer
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 231, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 90, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 818, in apply
+    fgraph.replace_all_validate(pairs, 'MergeOptimizer')
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/toolbox.py", line 309, in replace_all_validate
+    fgraph.replace(r, new_r, reason=reason, verbose=False)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/fg.py", line 500, in replace
+    str(reason))
+TypeError: ('The type of the replacement must be compatible with the type of the original Variable.', AllocEmpty{dtype='float64'}.0, AllocEmpty{dtype='float64'}.0, TensorType(float64, row), TensorType(float64, matrix), 'MergeOptimizer')
+
+make: *** [run-rnn] Terminated

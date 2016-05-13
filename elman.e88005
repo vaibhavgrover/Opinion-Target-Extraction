@@ -1,0 +1,65 @@
+make: *** [prepare-folds] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+make: *** [prepare-json] Error 1
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    dataset = json.load(open(data_path))
+IOError: [Errno 2] No such file or directory: 'restaurant-json-Senna.txt'
+make: *** [run-rnn] Error 1
+/var/spool/PBS/mom_priv/jobs/88005.hn1.hpc.iitd.ac.in.SC: line 27: mpirun: command not found
+real 0.00
+user 0.00
+sys 0.00

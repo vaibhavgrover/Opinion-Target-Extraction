@@ -1,0 +1,6 @@
+/var/spool/PBS/mom_priv/jobs/88003.hn1.hpc.iitd.ac.in.SC: line 24: cd: /home/maths/integrated/mt5110581/NLP/opinion-target-master: No such file or directory
+/var/spool/PBS/mom_priv/jobs/88003.hn1.hpc.iitd.ac.in.SC: line 26: ./cv-batch.sh: No such file or directory
+/var/spool/PBS/mom_priv/jobs/88003.hn1.hpc.iitd.ac.in.SC: line 27: mpirun: command not found
+real 0.00
+user 0.00
+sys 0.00

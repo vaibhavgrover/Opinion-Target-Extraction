@@ -1,0 +1,20 @@
+/var/spool/PBS/mom_priv/jobs/87998.hn1.hpc.iitd.ac.in.SC: line 11: PBS: command not found
+which: no javac in (/home/maths/integrated/mt5110581/apache-maven-3.3.9/bin:/home/maths/integrated/mt5110581/anaconda2/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibutils/bin:/home/maths/integrated/mt5110581/bin)
+make: *** [prepare-json] Error 1
+<<!! BUG IN FGRAPH.REPLACE OR A LISTENER !!>> <type 'exceptions.TypeError'> ('The type of the replacement must be compatible with the type of the original Variable.', AllocEmpty{dtype='float64'}.0, AllocEmpty{dtype='float64'}.0, TensorType(float64, row), TensorType(float64, matrix), 'MergeOptimizer') MergeOptimizer
+ERROR (theano.gof.opt): SeqOptimizer apply MergeOptimizer
+ERROR (theano.gof.opt): Traceback:
+ERROR (theano.gof.opt): Traceback (most recent call last):
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 231, in apply
+    sub_prof = optimizer.optimize(fgraph)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 90, in optimize
+    ret = self.apply(fgraph, *args, **kwargs)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/opt.py", line 818, in apply
+    fgraph.replace_all_validate(pairs, 'MergeOptimizer')
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/toolbox.py", line 309, in replace_all_validate
+    fgraph.replace(r, new_r, reason=reason, verbose=False)
+  File "/home/maths/integrated/mt5110581/Theano-master/theano/gof/fg.py", line 500, in replace
+    str(reason))
+TypeError: ('The type of the replacement must be compatible with the type of the original Variable.', AllocEmpty{dtype='float64'}.0, AllocEmpty{dtype='float64'}.0, TensorType(float64, row), TensorType(float64, matrix), 'MergeOptimizer')
+
+make: *** [run-rnn] Terminated
